@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding:  4px 0px;
+}
+
+
+nav{
+   text-decoration: none;
+   text-align: right;
+font-size: 20px;
+box-shadow: 3px 6px rgb(143, 140, 140,0.35);
+height:40px;
+
+border-bottom: 2px solid #5c5757 ;
+box-shadow: 0px 2px rgb(97, 93, 93,0.35);
+margin-right: 15px;
+}
+nav li{
+ 
+  display: inline;
+  border:1px solid gray;
+background-color: rgb(6, 92, 118);
+color: white;
+border-radius: 6px;
+font-size: 14px;
+padding: 10px 7px;
+box-shadow: 2px 2px  gray;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+nav li a:hover {
+    background-color: white;
+color: black;
+
+border-radius:2px ;
+}
+h1{
+    text-align: center;
+padding: 40px 40px;
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+font-size: 30px;
+line-height: 0.5px;
+
+
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+font-size: 27px;
+}
+
+
+.main{
+   background-image:linear-gradient(rgba(17, 17, 17, 0.904),rgba(0, 0, 0, 0.491)), url("mm.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height:500px;
+width: 100%;
+position: relative;
+padding: 20px 20px;
+color: rgb(255, 255, 255);
+margin-right: 20px;
+margin-top: 5px;
+filter: blur();
+}
+.slide{
+    height: 500px;
+    border: 0.5px solid gray;
+    width:40%;
+    line-height: 50px;
+margin-left: 30%;
+padding: 20px 20px;
+margin-top: 40px;
+margin-bottom: 50px;
+box-shadow:5px 5px rgb(139, 137, 137,0.5);
+
+}
+.slide h2{
+color: rgb(2, 60, 78);;
+}
+
+
+
+
+
+
+img{
+    mix-blend-mode:multiply;
+        margin-left: 26%;
+        height: 250px;
+        width:50%;
+}
+p{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   line-height: 30px;
+   text-align: center;
+}
+#about{
+   
+    text-decoration: none;
+ margin-left: 38%;
+  border:0.5px solid rgb(6, 92, 118);;
+  padding: 10px 10px;
+  border-radius: 3px;
+  background-color:rgb(6, 92, 118);
+  color: white;
+  margin-bottom: 20px;
+top:0;
+}
+#about:hover{
+    background-color: rgba(39, 33, 33, 0.493);
+    color: white;
+    box-shadow: 2px 2px gray;
+}
+
+button{
+   margin-left:50% ;
+    height: 50px;
+    width:80px;
+}
+.last{
+    height:150px;
+    color:white;
+    background-color: rgb(46, 43, 43);
+    margin-top: 50px;
+    padding: 50px 30px;
+   
+}
+.last p{
+    margin-left:20%;
+}
